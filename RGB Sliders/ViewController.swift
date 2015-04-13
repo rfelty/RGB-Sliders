@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        updateBackgroundColor()
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,11 +25,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func updateBackgroundColor() {
-        let red = CGFloat[redSLider.value]
-        let green = CGFloat[greenSlider.value]
-        let red = CGFloat [redSlider.value]
+        let red = CGFloat(redSlider.value)
+        let green = CGFloat(greenSlider.value)
+        let blue = CGFloat(blueSlider.value)
         
-        //view.backgroundCOlor = UIColor(red: red, green: green, blue: blue, alpha: 1)
+        view.backgroundColor = UIColor(red: red, green: green, blue: blue, alpha: 1)
     }
 
 }
