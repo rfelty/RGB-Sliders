@@ -47,7 +47,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="hpx-BC-2Zu" kind="show" id="Pev-zx-udY"/>
+                                    <segue destination="hpx-BC-2Zu" kind="show" identifier="openColor" id="Pev-zx-udY"/>
                                 </connections>
                             </button>
                         </subviews>
